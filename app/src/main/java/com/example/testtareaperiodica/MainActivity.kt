@@ -1,7 +1,7 @@
 package com.example.testtareaperiodica
 /*
-https://guides.codepath.com/android/Repeating-Periodic-Tasks
-https://stackoverflow.com/questions/32571878/simulate-blinking-of-a-button-android
+Antonio Villanueva Segura
+Reloj digital HH:MM:SS en KOTLIN
  */
 
 import androidx.appcompat.app.AppCompatActivity
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
 
     //Formate HORAS : MINUTOS : SEGUNDOS a un String tipo HH:MM:SS
     fun formatTime(HH:Int,MM:Int,SS:Int):String {
-        return String.format ("%02d:%02d:%02d", HH, MM, SS);
+        return String.format ("%02d:%02d:%02d", HH, MM, SS)
     }
 
     //Actualiza el paso del tiempo HH:MM:SS cada segundo
