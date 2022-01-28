@@ -22,3 +22,6 @@ Detalles clave de implementacion
   override fun onPause() 
   ..
   override fun onResume() 
+
+
+https://github.com/AntonioVillanuevaSegura/RelojKotlin/blob/master/app/src/main/java/com/example/testtareaperiodica/MainActivity.kt
